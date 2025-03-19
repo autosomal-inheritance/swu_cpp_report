@@ -4,8 +4,10 @@ using namespace std;
 #include "Ram.h"
 
 Ram::Ram() { 
-	mem[100 * 1024] = 0; 
 	size = 100 * 1024;
+	for (int i = 0; i < 100 * 1024; i++) {
+		mem[i] = 0;
+	}
 }
 
 Ram::~Ram() {
