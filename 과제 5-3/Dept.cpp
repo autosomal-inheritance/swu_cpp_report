@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+
+#include "Dept.h"
+
+
+Dept::Dept(const Dept& dept) {
+	this -> size = dept.size;
+	this -> scores = new int[size];
+
+
+	for (int i = 0; i < size; i++) {
+		this->scores[i] = dept.scores[i];
+	}
+}
+
+Dept :: ~Dept() {
+}
+
+void Dept::read() {
+	cout << size << "개의 성적을 입력해주세요 : ";
+	for (int i = 0; i < size; i++) {
+		cin >> scores[i];
+	}
+}
+
+
+bool Dept::isOver60(int index) {
+	if (scores[index] > 60) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+/*
+class Dept {
+	int size; // scores 배열의 크기
+	int* scores; // 동적 할당 받을 정수 배열의 주소
+
+public:
+	Dept(int size) { // 생성자
+		this->size = size;
+		scores = new int[size];
+	}
+
+	Dept(const Dept& dept); // 복사생성자
+
+	~Dept(); // 소멸자
+
+	int getSize() { return size; }
+	void read(); // size 만큼 키보드에서 정수를 읽어 scores 배열에 저장
+	bool isOver60(int index); // index의 학생의 성적이 60보다 크면 true 리턴
+};
+*/
