@@ -33,8 +33,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 6-1(2)", "과제 6-1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 6-2(2)", "과제 6-2\과제 6-2.vcxproj", "{0F45912E-E525-4984-B8D4-868815F4856F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 6-3", "과제 6-3\과제 6-3.vcxproj", "{1FE9EC53-AFC7-4700-94F7-7B82153C4894}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 6-1(1)", "과제 6-1(1)\과제 6-1(1).vcxproj", "{6F6CACCE-8C21-4B51-B591-5199C0C81085}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 6-2(1)", "과제 6-2(1)\과제 6-2(1).vcxproj", "{9018C396-0419-498C-B809-1AD5D17974CF}"
@@ -46,6 +44,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 7-2(1)", "과제 7-2(1)\과제 7-2(1).vcxproj", "{0764D20B-9513-4198-9E29-9B8B36206A40}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 7-2(2)", "과제 7-2(2)\과제 7-2(2).vcxproj", "{75BB6E82-FE2A-4DEB-BB62-3D42B9E48635}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제 6-3", "과제 6-33\과제 6-33.vcxproj", "{32FF09BE-76CB-4719-9A97-E1B12885F73B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,14 +175,6 @@ Global
 		{0F45912E-E525-4984-B8D4-868815F4856F}.Release|x64.Build.0 = Release|x64
 		{0F45912E-E525-4984-B8D4-868815F4856F}.Release|x86.ActiveCfg = Release|Win32
 		{0F45912E-E525-4984-B8D4-868815F4856F}.Release|x86.Build.0 = Release|Win32
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Debug|x64.ActiveCfg = Debug|x64
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Debug|x64.Build.0 = Debug|x64
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Debug|x86.ActiveCfg = Debug|Win32
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Debug|x86.Build.0 = Debug|Win32
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Release|x64.ActiveCfg = Release|x64
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Release|x64.Build.0 = Release|x64
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Release|x86.ActiveCfg = Release|Win32
-		{1FE9EC53-AFC7-4700-94F7-7B82153C4894}.Release|x86.Build.0 = Release|Win32
 		{6F6CACCE-8C21-4B51-B591-5199C0C81085}.Debug|x64.ActiveCfg = Debug|x64
 		{6F6CACCE-8C21-4B51-B591-5199C0C81085}.Debug|x64.Build.0 = Debug|x64
 		{6F6CACCE-8C21-4B51-B591-5199C0C81085}.Debug|x86.ActiveCfg = Debug|Win32
@@ -231,6 +223,14 @@ Global
 		{75BB6E82-FE2A-4DEB-BB62-3D42B9E48635}.Release|x64.Build.0 = Release|x64
 		{75BB6E82-FE2A-4DEB-BB62-3D42B9E48635}.Release|x86.ActiveCfg = Release|Win32
 		{75BB6E82-FE2A-4DEB-BB62-3D42B9E48635}.Release|x86.Build.0 = Release|Win32
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Debug|x64.ActiveCfg = Debug|x64
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Debug|x64.Build.0 = Debug|x64
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Debug|x86.ActiveCfg = Debug|Win32
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Debug|x86.Build.0 = Debug|Win32
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Release|x64.ActiveCfg = Release|x64
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Release|x64.Build.0 = Release|x64
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Release|x86.ActiveCfg = Release|Win32
+		{32FF09BE-76CB-4719-9A97-E1B12885F73B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

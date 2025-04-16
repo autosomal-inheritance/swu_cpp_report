@@ -8,7 +8,7 @@ using namespace std;
 
 class Board {
 private:
-	Board() ;
+	Board();
 
 public:
 
