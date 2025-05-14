@@ -6,7 +6,7 @@ using namespace std;
 
 
 int Board::size = 0;
-
+string Board::text[100];
 
 void Board::add(string me) {
 
@@ -25,7 +25,7 @@ void Board::print() {
 
 	cout << "************* 게시판입니다. *************\n";
 
-	for (int i = 0; i <= size; i++) {
+	for (int i = 0; i < size; i++) {
 		cout << i << ": " << text[i] << endl;
 	}
 }
