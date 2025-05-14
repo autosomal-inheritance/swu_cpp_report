@@ -24,7 +24,7 @@ void check(map<string, string>& m) {
     
     while (1) {
 
-        // 암호가 틀리면 반복적으로 물음
+        // 암호가 다르면 반복적으로 물음
         cout << "암호? : ";
         cin >> ch_code;
 
