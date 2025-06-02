@@ -5,7 +5,7 @@ int main() {
 
     char l[256];
 
-    while(l!="^Z"){
+    while(l!="EOF") {
     
         cin.getline(l, 256, ';');
         
